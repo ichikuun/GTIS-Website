@@ -19,12 +19,17 @@ Use id for one-time applications and class for when you need multiple instances 
 When possible, code is to be shortened as much as it allows.
 
 X padding-top: 10px; padding-right: 5%; padding-bottom: 3px;
+
 O padding: 10px 5% 3px 0;
+
 X border-style: solid; border-color: black; border-width: 1px;
+
 O border: 1px solid black;
 
 Think of responsiveness when coding. You will still be the one making the mobile versions, at the end of the day. This is especially true for horizontal measures such as width, left right padding and margin.
+
 X width: 1280px;
+
 O width: 100%;
 
 Body text: Crimson Text, 14pt, black
