@@ -176,7 +176,7 @@ li#student:hover > #sdropdown {
   background-color: #fee496;
   z-index: 99;
   position: absolute;
-  top: 169px;
+  top: 169 px;
   right: 5%;
   display: none;
   padding: 5px 5px 25px 5px;
@@ -207,7 +207,7 @@ li#student:hover > #sdropdown {
   padding: 90px 10% 30px 10%;
 }
 
-h1.pagetitties {
+h1.pagetitle {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 36pt;
@@ -216,14 +216,14 @@ h1.pagetitties {
   padding: 0;
 }
 
-#divi {
+#divider {
   width: 150px;
   border-bottom: 2px solid #fec14a;
   padding: 10px 0 0 0;
   margin: 0 0 40px 0;
 }
 
-h2.headertits {
+h2.paraheading {
   font-family: 'Lato', sans-serif;
   font-size: 14pt;
   letter-spacing: 1px;
@@ -232,11 +232,11 @@ h2.headertits {
   padding: 0;
 }
 
-.peckerwrapper {
+.textwrapper {
   width: 60%;
 }
 
-p.peckertext {
+p.bodytext {
   font-family: 'Crimson Text', serif;
   font-size: 14pt;
   color: black;
