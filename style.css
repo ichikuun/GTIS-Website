@@ -9,7 +9,8 @@ font: font-style font-variant font-weight font-size/line-height font-family
   padding: 0;
   margin: 0;
   height: auto;
-  width: 1280px;
+  width: 100%;
+  max-width: 1280px;
   scroll-behavior: smooth;
 }
 
