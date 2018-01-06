@@ -13,53 +13,94 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
   <link rel="shortcut icon" href="images/favicon.ico">
-
-  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-  <!-- FOR SLIDER -->
-  <script type="text/javascript" src="jquery.simpleslider.package.min.js"></script>
-
 </head>
+
+<header>
+  <!-- NAVIGATION -->
+  <div id="bar">
+    <a href="index.html"> <img id="logo" src="images/logo.png">
+    <p id="logotext">Glad Tidings<br>International School</p><p id="logotext1">Learn. Serve. Lead.</p></a>
+    <a href="contact.html"><button id="contact">Contact</button></a>
+    <a href="give.html"><button id="give">Give</button></a>
+  </div>
+
+  <ul id="navi">
+    <a class="normal" href="index.html"><li>Home</li></a>
+    <li id="about">Discover<div id="adropdown">
+      <ul id="drop">
+        <!-- <div id="triangle"></div> -->
+        <a class="normal" href="#"><li>About Us</li></a>
+        <a class="normal" href="#"><li style="padding-right:-20px;">History</li></a>
+        <a class="normal" href="#"><li>Staff</li></a>
+      </ul>
+    </div></li>
+    <a class="normal" href="#"><li>Admissions</li></a>
+    <a class="normal" href="#"><li>Learning</li></a>
+    <li id="student">Student Life<div id="sdropdown">
+      <ul id="drop">
+        <a class="normal" href="#"><li>News & Events</li></a>
+        <a class="normal" href="#"><li style="padding-right:-20px;">Faith Life</li></a>
+      </ul></div>
+    </li>
+  </ul>
+  <!-- NAVIGATION -->
+</header>
 
 <body>
 
-<!-- NAVIGATION -->
-<div id="bar">
-  <a href="index.html"> <img id="logo" src="images/logo.png">
-  <p id="logotext">Glad Tidings<br>International School</p><p id="logotext1">Learn. Serve. Lead.</p></a>
-  <a href="contact.html"><button id="contact">Contact</button></a>
-  <a href="give.html"><button id="give">Give</button></a>
-</div>
-
-<ul id="navi">
-  <a class="normal" href="index.html"><li>Home</li></a>
-  <li id="about">Discover<div id="adropdown">
-    <ul id="drop">
-      <!-- <div id="triangle"></div> -->
-      <a class="normal" href="#"><li>About Us</li></a>
-      <a class="normal" href="#"><li style="padding-right:-20px;">History</li></a>
-      <a class="normal" href="#"><li>Staff</li></a>
-    </ul>
-  </div></li>
-  <a class="normal" href="#"><li>Admissions</li></a>
-  <a class="normal" href="#"><li>Learning</li></a>
-  <li id="student">Student Life<div id="sdropdown">
-    <ul id="drop">
-      <a class="normal" href="#"><li>News & Events</li></a>
-      <a class="normal" href="#"><li style="padding-right:-20px;">Faith Life</li></a>
-    </ul></div>
-  </li>
-</ul>
-<!-- NAVIGATION -->
-
 <!-- INDEX HOMEPAGE-->
 
-<div id="index-wrapper">
+
+  <div id="carousel" class="carousel slide" data-ride="carousel">
+
+    <!-- DOTDOT THING -->
+    <ol class="carousel-indicators">
+      <li class="slider" data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li class="slider" data-target="#carousel" data-slide-to="1"></li>
+      <li class="slider" data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- SLIDES -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="images/slideshow/classeshome.jpg" alt="Join classes now!">
+        <div class="caption">
+          <button class="carousel-caption">Register now!</button>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/slideshow/cnyhome.jpg" alt="Chinese New Year Promo">
+      </div>
+
+      <div class="item">
+        <img src="images/slideshow/students.jpg" alt="Discount for Students">
+        <div class="caption">
+          <button class="carousel-caption1" href="book.html">Book now!</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CONTROLS -->
+    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
 
 </div>
-
 
 <!-- INDEX HOMEPAGE-->
 </body>
@@ -91,5 +132,28 @@
   </ul>
 </footer>
 <!-- FOOTER -->
+
+<!-- JAVASCRIPT -->
+
+<script>
+  $(document).ready(function () {
+  $('.scrollup').hide();
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+    $('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+  });
+</script>
 
 </html>

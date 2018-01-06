@@ -8,16 +8,15 @@ font: font-style font-variant font-weight font-size/line-height font-family
   background-color: white;
   padding: 0;
   margin: 0;
-  height: auto;
-  width: 100%;
-  max-width: 1280px;
-  scroll-behavior: smooth;
 }
 
 html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  height: auto;
+  width: 100%;
+  max-width: 1280px;
 }
 
 ::-webkit-scrollbar {
@@ -176,7 +175,7 @@ li#student:hover > #sdropdown {
   background-color: #fee496;
   z-index: 99;
   position: absolute;
-  top: 169 px;
+  top: 169px;
   right: 5%;
   display: none;
   padding: 5px 5px 25px 5px;
@@ -198,7 +197,7 @@ li#student:hover > #sdropdown {
 /* NAVIGATION */
 
 
-/* CONTENT INFO */
+/* TEMPLATE */
 #wrapper {
   background-color: white;
   height: auto;
@@ -244,7 +243,76 @@ p.bodytext {
   padding: 0;
 }
 
-/* CONTENT INFO */
+/* TEMPLATE */
+
+
+/* HOMEPAGE */
+
+.carousel {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 720px;
+  animation: wow 8s;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 1280px;
+  height: 720px;
+  margin: 0;
+  }
+
+.carousel-caption {
+  display: list-item;
+  background-color: #3d3d3d;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 30px;
+  position: relative;
+  left: 568px;
+  bottom: 200px;
+  border: none;
+  opacity: 0.95;
+  font-family: 'Nunito', sans-serif;
+}
+
+.carousel-caption1 {
+  display: list-item;
+  background-color: #3d3d3d;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 30px;
+  position: relative;
+  left: 575px;
+  bottom: 180px;
+  border: none;
+  opacity: 0.95;
+  font-family: 'Nunito', sans-serif;
+}
+
+.carousel-caption:hover {
+  background: yellow;
+  color: black;
+  opacity: 1;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+.carousel-caption1:hover {
+  background: yellow;
+  color: black;
+  opacity: 1;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+.slider:hover {
+  background-color: yellow;
+}
+
+
+/* HOMEPAGE */
+
 
 /* FOOTER */
 footer {
