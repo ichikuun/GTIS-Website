@@ -9,7 +9,9 @@ PAGELIST
 Home: index.html
 
 About Us: about.html
+
 History: history.html
+
 Staff: staff.html
 
 Admissions: admissions.html
@@ -17,8 +19,12 @@ Admissions: admissions.html
 Learning: learning.html
 
 News & Events: news.html
+
 Faith Life: faith.html
 
 Contact: contact.html
+
 Give: give.html
+
 Sitemap: sitemap.html
+
