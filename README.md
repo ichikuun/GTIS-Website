@@ -4,45 +4,27 @@ GTIS website made for DMD module
 Time to clinch that award with this amazing education website for Glad Tidings International School in Cambodia.
 
 
-GUIDELINES
+PAGELIST
 
-You must follow the spacing conventions.
-Type in a new line for every new element.
-Children nested parent elements should have a margin with one extra tab space than the parents'.
-Refer to template html and css for beautiful formatting.
+Home: index.html
 
+About Us: about.html
 
-Follow the four colours used in the navigation bar. Yellows for accents and dark green for backgrounds. Use the light green as little as possible.
+History: history.html
 
+Staff: staff.html
 
-Create your own css file but use weird and outlandish names so no overlap occurs.
+Admissions: admissions.html
 
+Learning: learning.html
 
-Use id for one-time applications and class for when you need multiple instances of the style.
+News & Events: news.html
 
+Faith Life: faith.html
 
-When possible, code is to be shortened as much as it allows.
+Contact: contact.html
 
-X padding-top: 10px; padding-right: 5%; padding-bottom: 3px;
+Give: give.html
 
-O padding: 10px 5% 3px 0;
+Sitemap: sitemap.html
 
-X border-style: solid; border-color: black; border-width: 1px;
-
-O border: 1px solid black;
-
-
-Think of responsiveness when coding. You will still be the one making the mobile versions, at the end of the day. This is especially true for horizontal measures such as width, left right padding and margin.
-
-X width: 1280px;
-
-O width: 100%;
-
-
-Body text: Crimson Text, 14pt, black
-
-Paragraph heading: Lato, 14pt, black, all uppercase, 1px letter-spacing
-
-Page title: Lato, 36pt, black, 700 font-weight
-
-refer to actual template for better reference
