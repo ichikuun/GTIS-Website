@@ -250,12 +250,11 @@ p.bodytext {
 
 .carousel {
   width: 100% !important;
-  height: auto;
+  max-height: 530px !important;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   width: 100%;
-  height: auto;
   margin: 0;
   }
 
@@ -320,6 +319,10 @@ p.bodytext {
 .slider:hover {
   opacity: 1;
   transform: scale(1);
+}
+
+.item {
+  height: 530px;
 }
 
 
