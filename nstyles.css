@@ -236,9 +236,8 @@ h2.headertits {
 }
 
 .peckerwrapper {
-  width: 60%;
+  width: 100%;
 }
-
 
 p.peckertext {
   font-family: 'Crimson Text', serif;
@@ -246,19 +245,23 @@ p.peckertext {
   color: black;
   margin: 0 0 30px 0;
   padding: 0;
-  width:85%;
+  width:55%;
   text-align: justify;
+  float: left;
 }
 
-/*img.penis {
-  display: inline-block;
-  width:30%;
+img.penis {
+  width:25%;
+  height:10%;
+  float: left;
+  margin: 0 25px 10% 30px;
 }
 
 /* CONTENT INFO */
 
 /* FOOTER */
 footer {
+  clear: left;
   background: #5c7944;
   width: 100%;
   height: 350px;
