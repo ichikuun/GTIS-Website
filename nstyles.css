@@ -210,7 +210,7 @@ li#student:hover > #sdropdown {
   padding: 90px 10% 30px 10%;
 }
 
-h1.pagetitties {
+h1.head {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 36pt;
@@ -226,17 +226,29 @@ h1.pagetitties {
   margin: 0 0 40px 0;
 }
 
-h2.headertits {
+#threemm {
+  width: 75px;
+  border-bottom: 2px solid #fec14a;
+  padding: 1px 0 0 0;
+  margin: 0 0 8px 0;
+}
+
+
+h2.oral {
   font-family: 'Lato', sans-serif;
   font-size: 14pt;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin: 0 0 5px 0;
+  margin: 0 0 7px 0;
   padding: 0;
+  display:block;
+  clear: left;
 }
 
 .peckerwrapper {
   width: 100%;
+  margin: 0 0 5% 0;
+  display: block;
 }
 
 p.peckertext {
@@ -245,16 +257,22 @@ p.peckertext {
   color: black;
   margin: 0 0 30px 0;
   padding: 0;
-  width:55%;
+  width:40%;
   text-align: justify;
   float: left;
 }
 
+p.peckertext b {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 img.penis {
-  width:25%;
+  /*width:25%;*/
   height:10%;
   float: left;
-  margin: 0 25px 5% 30px;
+  margin: 0 25px 10px 45px;
+  transform: translate(20%, -10%);
 }
 
 /* CONTENT INFO */
