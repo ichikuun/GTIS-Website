@@ -288,16 +288,16 @@ p.peckertext {
 }
 
 p.peckertext b {
-  font-family: 'Lato', sans-serif;
+    font-family: 'Crimson Text', serif;
   text-decoration:underline;
-  letter-spacing: 2px;
+
 }
 
 img.penis {
   /*width:25%;*/
   height:10%;
   float: left;
-  margin: -20px 25px 10px 45px;
+  margin: -20px 25px 8% 45px;
 }
 
 /* CONTENT INFO */
