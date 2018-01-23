@@ -226,14 +226,6 @@ h2.indexheading {
   margin: 0 20% 50px 20%;
 }
 
-.indexwrapper3 {
-  width: 60%;
-  padding: 30px 20% 0 20%;
-  background-color: #fee496;
-  background-size: cover;
-  margin: 0;
-}
-
 .factsdivider {
   width: 10%;
   border-bottom: 2px solid #fec14a;
@@ -254,6 +246,7 @@ p.indextext {
   align-items: center;
   text-align: center;
   margin: 0 100px;
+  padding-bottom: 70px;
 }
 
 h1.factsh1 {
@@ -286,54 +279,54 @@ img.factsimg {
   height: 100px;
 }
 
-.indexfacts1 {
-  background-color: #fee496;
+.indexwrapper3 {
+  width: 60%;
+  padding: 30px 20% 0 20%;
+  margin: 0;
+}
+
+.indexwrapper5 {
   display: flex;
   align-items: center;
   text-align: center;
+}
+
+.indexwrapper4 {
   margin: 0;
-  padding: 10px 0 70px 0;
+  padding: 330px 0 50px 0;
+  text-align: center;
+  background: url(images/kids5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.facts1 {
-  margin: 0 10px 0 40px;
-  width: 100%;
-  height: 100px;
-  background-image: url(images/kids1.jpg);
-  background-size: 100%;
-  background-position: right;
-  background-repeat: no-repeat;
-  transition: background ease 0.3s;
-  filter: brightness(120%);
+.indexwrapper4 > a {
+  font-family: 'Lato', sans-serif;
+  font-size: 14pt;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 5% 0;
+  padding: 0;
+  color: white;
 }
 
-.facts2 {
-  margin: 0 10px;
+.facts1, .facts2, .facts3 {
+  margin: 0 5%;
+  padding: 0;
   width: 100%;
-  height: 100px;
-  background-image: url(images/kids2.jpg);
-  background-size: 100%;
-  background-position: top;
-  background-repeat: no-repeat;
+  height: 12%;
+  border: 2px solid #fec14a;
   transition: background ease 0.3s;
-  filter: brightness(120%);
-}
-
-.facts3 {
-  margin: 0 40px 0 10px;
-  width: 100%;
-  height: 100px;
-  background-image: url(images/kids4.jpg);
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(120%);
-  transition: background ease 0.3s;
+  text-align: center;
 }
 
 .facts1:hover, .facts2:hover, .facts3:hover {
-  background-size: 110%;
-  filter: brightness(100%);
+  background-color: #fec14a;
+}
+
+.indexwrapper5 a {
+  text-decoration: none;
 }
 
 h2.empowertext {
@@ -342,66 +335,12 @@ h2.empowertext {
   font-weight: 400;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin: 10% 0;
+  margin: 5% 0;
   padding: 0;
   color: white;
 }
 
-/* INDEX */
-
-
-
-
-/* TEMPLATE */
-#wrapper {
-  background-color: white;
-  height: auto;
-  width: 100%;
-  margin: 0;
-  padding: 90px 10% 30px 10%;
-}
-
-h1.pagetitle {
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  font-size: 36pt;
-  color: black;
-  margin: 0;
-  padding: 0;
-}
-
-#divider {
-  width: 150px;
-  border-bottom: 2px solid #fec14a;
-  padding: 10px 0 0 0;
-  margin: 0 0 40px 0;
-}
-
-h2.paraheading {
-  font-family: 'Lato', sans-serif;
-  font-size: 14pt;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin: 0 0 5px 0;
-  padding: 0;
-}
-
-.textwrapper {
-  width: 60%;
-}
-
-p.bodytext {
-  font-family: 'Crimson Text', serif;
-  font-size: 14pt;
-  color: black;
-  margin: 0 0 30px 0;
-  padding: 0;
-}
-
-/* TEMPLATE */
-
-
-/* HOMEPAGE */
+/* SLIDER */
 
 .carousel {
   width: 100% !important;
@@ -482,7 +421,98 @@ p.bodytext {
 }
 
 
-/* HOMEPAGE */
+
+/* INDEX */
+
+
+
+
+/* TEMPLATE */
+#wrapper {
+  background-color: white;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 90px 10% 30px 10%;
+}
+
+h1.pagetitle {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 36pt;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+#divider {
+  width: 150px;
+  border-bottom: 2px solid #fec14a;
+  padding: 10px 0 0 0;
+  margin: 0 0 40px 0;
+}
+
+h2.paraheading {
+  font-family: 'Lato', sans-serif;
+  font-size: 14pt;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+
+.textwrapper {
+  width: 60%;
+}
+
+p.bodytext {
+  font-family: 'Crimson Text', serif;
+  font-size: 14pt;
+  color: black;
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+
+/* TEMPLATE */
+
+
+/* NEWS */
+
+
+.box1 {
+  float: left;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  width: 19%;
+  height: 15vw;
+}
+
+#news1 {
+  background: url("images/kid3.jpg") center;
+  background-size: cover;
+  margin: 0 1%;
+}
+
+#news2 {
+  background: url("images/kids2.jpg") no-repeat;
+  background-size: cover;
+}
+
+#news3 {
+  margin: 0 1%;
+}
+
+#news4 {
+}
+
+.newstitle {
+  font-family: 'Lato', sans-serif;
+  font-size: 28pt;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 
 
 /* FOOTER */
@@ -552,7 +582,6 @@ a.nomal {
   color: white;
   text-decoration: none;
   font-family: 'Lato', sans-serif;
-  color: white;
   font-size: 14px;
 }
 
