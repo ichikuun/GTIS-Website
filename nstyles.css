@@ -207,7 +207,23 @@ li#student:hover > #sdropdown {
   height: auto;
   width: 100%;
   margin: 0;
-  padding: 90px 10% 30px 10%;
+  padding: 0;
+}
+
+img.across {
+  width:100%;
+  max-width: 1280px;
+  padding: 0;
+  margin:0;
+}
+
+#head-wrap {
+  width: 100%;
+  display:block;
+  background-color: #fee496;
+  background-size: cover;
+  margin: -4px 0 0 0;
+  padding: 8% 0;
 }
 
 h1.head {
@@ -217,13 +233,11 @@ h1.head {
   color: black;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
-#divi {
-  width: 150px;
-  border-bottom: 2px solid #fec14a;
-  padding: 10px 0 0 0;
-  margin: 0 0 40px 0;
+#info-section {
+  padding: 5% 0 0 5%;
 }
 
 #threemm {
@@ -254,11 +268,11 @@ h2.oral {
 p.peckertext {
   font-family: 'Crimson Text', serif;
   font-size: 14pt;
+  font-kerning: 1px;
   color: black;
   margin: 0 0 30px 0;
   padding: 0;
-  width:40%;
-  text-align: justify;
+  width:60%;
   float: left;
 }
 
@@ -271,8 +285,7 @@ img.penis {
   /*width:25%;*/
   height:10%;
   float: left;
-  margin: 0 25px 10px 45px;
-  transform: translate(20%, -10%);
+  margin: -10px 25px 10px 45px;
 }
 
 /* CONTENT INFO */
