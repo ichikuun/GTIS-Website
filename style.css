@@ -479,41 +479,6 @@ p.bodytext {
 /* NEWS */
 
 
-.box1 {
-  float: left;
-  background-color: black;
-  display: flex;
-  align-items: center;
-  width: 19%;
-  height: 15vw;
-}
-
-#news1 {
-  background: url("images/kid3.jpg") center;
-  background-size: cover;
-  margin: 0 1%;
-}
-
-#news2 {
-  background: url("images/kids2.jpg") no-repeat;
-  background-size: cover;
-}
-
-#news3 {
-  margin: 0 1%;
-}
-
-#news4 {
-}
-
-.newstitle {
-  font-family: 'Lato', sans-serif;
-  font-size: 28pt;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-
 
 /* FOOTER */
 footer {
