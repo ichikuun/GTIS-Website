@@ -31,12 +31,15 @@ h1.head {
   text-align: center;
 }
 
-#info-section {
-  padding: 5% 0 15% 8%;
+#writeup {
+  clear:both;
+  padding: 5% 0 0% 8%;
+  margin-bottom: 8%;
+  display: block;
 }
 
 #threemm {
-  width: 155px;
+  width: 140px;
   border-bottom: 2px solid #fec14a;
   padding: 1px 0 0 0;
   margin: 0 0 8px 0;
@@ -55,7 +58,7 @@ h2.oral {
 }
 
 p.write {
-  width: 60%;
+  width: 65%;
   text-align: center;
   font-family: 'Crimson Text', serif;
   font-size: 14pt;
@@ -87,7 +90,7 @@ p.peckertext {
   color: black;
   margin: 0 0 30px 0;
   padding: 0;
-  width: 60%;
+  width: 70%;
   float: left;
 }
 
@@ -96,22 +99,6 @@ p.peckertext b {
   text-decoration:underline;
 
 }
-
- /* ol {
-  display: inline;
-  float:left;
-  list-style-type: none;
-  width:65%;
-}
-
-li {
-  margin-bottom: 3%;
-}
-
-li.li.ol {
-  margin-left: 5%;
-  font-size: 30px;
-} */
 
 input[type=checkbox] {
     margin: 0 3% 0 0;
@@ -130,12 +117,39 @@ input.documents {
   margin-left: 10%;
 }
 
-img.penis {
-  width: 40%;
-  height: 10%;
-  margin: -20px 0 0 25px;
+
+@media only screen and (max-width:856px) {
+  #writeup {
+    padding-bottom: 5%;
+  }
 }
 
-#footabout {
-  margin-top: 50px;
+@media only screen and (max-width:621px) {
+  #writeup {
+    padding-bottom: 14%;
+  }
+}
+
+@media only screen and (max-width:520px) {
+  #writeup {
+    padding-bottom: 21%;
+  }
+}
+
+@media only screen and (max-width:450px) {
+  #writeup {
+    padding-bottom: 25%;
+  }
+}
+
+@media only screen and (max-width:400px) {
+  #writeup {
+    padding-bottom: 30%;
+  }
+}
+
+@media only screen and (max-width:370px) {
+  #writeup {
+    padding-bottom: 36%;
+  }
 }
