@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>GTIS: History</title>
+
+  <meta charset="UTF-8">
+  <meta name="keywords" content="glad tidings, gtis, cambodia, charity, christian, international, school">
+  <meta name="description" content="GTIS aims to bless, equip and empower Cambodia's children with quality education in a nurturing environment, providing a holistic education for academic excellence and development of the whole person based on Christian principles.">
+  <meta name="author" content="Inge's Group">
+  <meta name="viewport" content="width=device=width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i" rel="stylesheet">
+<<<<<<< HEAD:nav.html:nav.html
+
+=======
+>>>>>>> a40c91a0f385e2baec91463a3b13c351f068ad4c:History.html:History.html
+  <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<header>
+  <!-- NAVIGATION -->
+  <div id="bar">
+    <a href="index.html"> <img id="logo" src="images/logo.png">
+    <p id="logotext">Glad Tidings<br>International School</p><p id="logotext1">Learn. Serve. Lead.</p></a>
+    <a href="contact.html"><button id="contact">Contact</button></a>
+    <a href="give.html"><button id="give">Give</button></a>
+  </div>
+
+  <ul class="navi">
+    <a class="normal" href="index.html"><li>Home</li></a>
+    <li id="about">Discover<div id="adropdown">
+      <ul id="drop">
+        <a class="normal" href="about.html"><li>About Us</li></a>
+        <a class="normal" href="history.html"><li style="padding-right:-20px;">History</li></a>
+        <a class="normal" href="staff.html"><li>Staff</li></a>
+      </ul>
+    </div></li>
+    <a class="normal" href="admissions.html"><li>Admissions</li></a>
+    <a class="normal" href="learning.html"><li>Learning</li></a>
+    <li id="student">Student Life<div id="sdropdown">
+      <ul id="drop">
+        <a class="normal" href="news.html"><li>News & Events</li></a>
+        <a class="normal" href="calendar.html"><li> Calendar</li></a>
+        <a class="normal" href="faith.html"><li style="padding-right:-20px;">Faith Life</li></a>
+      </ul></div>
+    </li>
+  </ul>
+
+  <ul class="navi" id="mobinavi">
+    <a class="normal" href="about.html"><li>About Us</li></a>
+    </div></li>
+    <a class="normal" href="learning.html"><li>Learning</li></a>
+    <a class="normal" href="give.html"><li>Give</li></a>
+    <a class="normal" href="contact.html"><li>Contact</li></a>
+    <li id="student2">More<div id="sdropdown2">
+      <ul id="drop2">
+        <a class="normal2" href="history.html"><li>History</li></a>
+        <a class="normal2" href="staff.html"><li>Staff</li></a>
+        <a class="normal2" href="admissions.html"><li>Admissions</li></a>
+        <a class="normal2" href="news.html2"><li>News</li></a>
+        <a class="normal2" href="faith.html"><li>Faith Life</li></a>
+      </ul></div>
+    </li>
+  </ul>
+  <!-- NAVIGATION -->
+</header>
+
+<body id="history">
+
+<<<<<<< HEAD:nav.html:nav.html
+=======
+<!-- HISTORY -->
+<div class="wrapperh">
+	<div class="sensor">
+    <div class="htext">
+      <img class="hpic" src="images/history1.jpg">
+      <div class="htext2">
+        Land purchase was made and construction began for a new international school to be built in Gnor Village, Kampong Speu.
+      </div>
+    </div>
+  </div>
+	<div class="sensor">
+    <div class="htext">
+      <img class="hpic" src="images/history2.jpg">
+      <div class="htext2">
+        Before its current name, GTIS used to be known as Hope International Primary School (HIPS). It started with only 3 students and was the first school in the village to teach subjects outside the local curriculum.<br/><br/>
+        The first premises comprised of a 2-storey block with 4 classrooms, a principal’s office and a staff room. When the school first opened its doors, there were 4 teachers and 3 students.
+      </div>
+    </div>
+  </div>
+	<div class="sensor">
+    <div class="htext">
+      <img class="hpic" src="images/history3.jpg">
+      <div class="htext2">
+        At the old school site, student enrolment of 350 pupils is causing the school to be bursting at its seams! God provided resources through a benefactor to finance the purchase of land and the construction of a new school complex 800 meters from the original school building.
+      </div>
+    </div>
+  </div>
+	<div class="sensor">
+    <div class="htext">
+      <img class="hpic" src="images/history4.jpg">
+      <div class="htext2">
+        HIPS is renamed Hope International Secondary
+        School as it prepares for the first Grade 10 class. First group of students took the Grade 9 National Examinations of Cambodia Graduates, with 6 achieving outstanding state results.
+      </div>
+    </div>
+  </div>
+	<div class="sensor">
+    <div class="htext">
+      <img class="hpic" src="images/history5.jpg">
+      <div class="htext2">
+        GTIS was re-branded with a new school vision & mission, values, motto, crest, song and uniforms for students and staff. The new school complex is a 4-storey building with an assembly area, 14 classrooms, staff offices and a multi-purpose and training room.
+      </div>
+    </div>
+  </div>
+	<div class="sensor">
+    <div class="htext">
+      <img class="hpic" src="images/history6.jpg">
+      <div class="htext2">
+        In May 2014, the school was finally renamed Glad Tidings International School. The school now has a canteen with the auditorium above it, and a covered linkway connecting it with the main school block.
+      </div>
+    </div>
+  </div>
+	<div class="sensor">
+    <div class="htext">
+      <img class="hpic" src="images/history7.jpg">
+      <div class="htext2">
+        With the newly-built eco-garden, basketball and badminton courts, facilities were added to the school grounds to spice up student life and get them to enjoy the beautiful outdoors of Cambodia.
+      </div>
+    </div>
+  </div>
+	<div class="sensor">
+    <div class="htext">
+      <img class="hpic" src="images/history8.jpg">
+      <div class="htext2">
+        The first cohort of Grade 12 pupils sat for the National G12 Examinations of Cambodia. Meanwhile, in September, students and teachers went for a spiritual retreat and training with the school's renewed focus on 'Calling and Purpose'.
+      </div>
+    </div>
+  </div>
+	<div class="sensor">
+    <div class="htext">
+      <img class="hpic" src="images/history9.jpg">
+      <div class="htext2">
+        GTIS celebrated its 10th anniversary with the Deputy Governor of Kg Speu Province, invited guests include past principals and trainers from Australia, Malaysia and Singapore.<br/>The school operates from Grades 1 to 12 and has 498 pupils, 25 full time teachers and 5 support staff. G10 to G12 classes cease temporarily due to shortage of qualified teachers.
+      </div>
+    </div>
+  </div>
+	<div class="sensor">
+    <div class="htext">
+      <div class="htext4">
+        <h1>$500,000</h1>
+        The next ten years will pose different challenges. Due to rising affluence, the wages and maintenance costs would rise.  We are facing a shortage of qualified teachers, and as a result, very sadly and reluctantly, we had to cease offering G10 to 12 classes effective next semester.<br/><br/>
+        We are currently short of classrooms, and we need a computer lab, a proper library and a science lab to ‘complete’ the school.  Plans for a new adjoining building have been drawn up, and the total cost of construction and facilities is estimated at S$500,000.
+        <div class="facts4">
+          <a href="give.html#donate"><h2 class="donatetext">Do Your Part now</h2></a>
+        </div>
+      </div>
+    </div>
+  </div>
+	<div class="pano">
+  </div>
+</div>
+
+
+<!-- HISTORY -->
+</body>
+
+>>>>>>> a40c91a0f385e2baec91463a3b13c351f068ad4c:History.html:History.html
+
+<!-- FOOTER -->
+<footer>
+  <ul class="footnav">
+    <a class="nomal" href="index.html"><li>Home</li></a>
+    <a class="nomal" href="about.html"><li>About Us</li></a>
+    <a class="nomal" href="admissions.html"><li>Admissions</li></a>
+    <a class="nomal" href="learning.html"><li>Learning</li></a>
+    <a class="nomal" href="news.html"><li>News & Events</li></a>
+    <a class="nomal" href="faith.html"><li>Faith Life</li></a>
+    <a class="nomal" href="sitemap.html"><li>Sitemap</li></a>
+    <a class="nomal" href="contact.html"><li>Contact</li></a>
+    <a class="nomal" href="give.html"><li>Give</li></a>
+    <li><a href="#"><img src="images/facebook.png" class="soc"></img></a><a href="#"><img src="images/twitter.png" class="soc"></img></a><a href="#"><img src="images/youtube.png" class="soc"></img></a><a href="#"><img src="images/instagram.svg" class="soc"></img></a></li>
+  </ul>
+  <div id="foot">
+    <p id="fotter">&ldquo;The fear of the LORD is the beginning of knowledge, but fools despise wisdom and instruction.&rdquo;</p>
+    <p id="quote">- Proverbs 1:7</p>
+    <p id="add"><br><br>Gnor Village, Kandao Dum Commune, Chbar Mon City<br>
+    Kampong Speu Province, Cambodia<br><br>
+    +885 097 35 31 861 (Cambodia)<br>
+    +65 6288 1331 (Singapore)<br><br>
+    All rights reserved. Copyright © 2017.<br>
+    Powered by Inge's Group.</p>
+  </div>
+  <div id="footwrap">
+
+  </div>
+
+</footer>
+<!-- FOOTER -->
