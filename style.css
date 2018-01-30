@@ -801,8 +801,19 @@ p.bodytext {
 	border-width: 0 .1vmin 0 0;
 }
 
+<<<<<<< HEAD
+/* FOOTER */
+footer {
+  background: #5c7944;
+  width: 100%;
+  height: 360px;
+  margin: 0;
+  padding: 0;
+  clear: both;
+=======
 .sensor:hover {
 	background: #fec14a;
+>>>>>>> c0b08085335c7174a30ba4f13407dc3a3fc34506
 }
 
 .sensor:nth-of-type(1) {
