@@ -1705,6 +1705,682 @@ p.ccontacts {
 }
 
 
+/* FAITH LIFE AND ABOUT US*/
+
+#foil {
+  margin-bottom: 15%;
+  height: 100%;
+}
+
+img.across {
+  width: 100%;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper2 {
+  width: 100%;
+  background-color: #fee496;
+  padding: 35px 0;
+  margin-top: -5px;
+}
+
+.aboutdivider {
+  width: 14%;
+  border-bottom: 2px solid #fec14a;
+  padding: 0 0 0 0;
+  margin: 10px 43% 15px 43%;
+}
+
+h1.head {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 36pt;
+  color: black;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#info-section {
+  padding: 5% 0 0 5%;
+  clear: both;
+}
+
+#threemm {
+  width: 14%;
+  border-bottom: 2px solid #fec14a;
+  padding: 1px 0 0 0;
+  margin: 0 0 8px 0;
+}
+
+h2.oral {
+  font-family: 'Lato', sans-serif;
+  font-size: 14pt;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 0 7px 0;
+  padding: 0;
+  display: block;
+}
+
+p.write {
+  width: 60%;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 14pt;
+  color: black;
+  margin: 0 0 0 20%;
+  padding: 0;
+}
+
+.peckerwrapper {
+  width: 100%;
+  margin: 0;
+}
+
+p.peckertext {
+  font-family: 'Crimson Text', serif;
+  font-size: 14pt;
+  font-kerning: 1px;
+  color: black;
+  margin: 0 0 5% 0;
+  padding: 0;
+  width: 50%;
+  float: left;
+}
+
+p.peckertext b {
+  font-family: 'Crimson Text', serif;
+  text-decoration: underline;
+}
+
+img.penis1 {
+  width: 40%;
+  height: 10%;
+  margin: -3% 0 0 3%;
+}
+
+img.penis2 {
+  width: 40%;
+  height: 10%;
+  margin: -38px 0 0 40px;
+}
+
+img.penis3 {
+  width: 40%;
+  height: 10%;
+  margin: -38px 0 0 40px;
+}
+
+/*for tablet*/
+
+@media only screen and (max-width:900px) {
+  #wrapper2 {
+    width: 100%;
+  }
+
+  p.write {
+    width: 60%;
+  }
+
+  p.peckertext {
+    width: 90%;
+    display: block;
+  }
+
+  img.penis1 {
+    width: 70%;
+    height: 50%;
+    clear: both;
+    margin-left: -5%;
+  }
+
+  img.penis2 {
+    width: 80%;
+    height: 70%;
+    clear: both;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-left: -0.3%;
+  }
+
+  img.penis3 {
+    width: 80%;
+    height: 80%;
+    clear: both;
+    margin-bottom: 5%;
+    margin-left: -0.3%;
+    display: block;
+    float: left;
+  }
+}
+
+@media only screen and (max-width:945px) {
+  p.peckertext {
+    width: 80%;
+  }
+  img.penis1 {
+    width: 60%;
+    height: 80%;
+    clear: both;
+    margin-left: -0.3%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    display: block;
+  }
+  img.penis2 {
+    width: 80%;
+    height: 80%;
+    clear: both;
+    margin-left: -0.3%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    display: block;
+  }
+  img.penis3 {
+    width: 80%;
+    height: 80%;
+    clear: both;
+    margin-bottom: 7%;
+    margin-top: 1%;
+    margin-left: -0.3%;
+    display: block;
+  }
+}
+
+/*tablet*/
+
+@media only screen and (max-width:870px) {
+  p.peckertext {
+    width: 85%;
+  }
+  img.penis1 {
+    width: 65%;
+    height: 80%;
+    clear: both;
+    margin-left: -0.3%;
+  }
+  img.penis2 {
+    width: 80%;
+    height: 80%;
+    clear: both;
+    margin-top: 0.5%;
+    margin-left: -0.3%;
+  }
+  img.penis3 {
+    width: 80%;
+    height: 80%;
+    clear: both;
+    margin-bottom: 5%;
+    margin-left: -0.3%;
+  }
+  #foil {
+    margin-bottom: 10%;
+  }
+  #info-section {
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  #info-section {
+    margin-left: 4%;
+  }
+  p.peckertext {
+    width: 90%;
+  }
+}
+
+/*for mobile*/
+
+@media only screen and (max-width:375px) {
+  #foil {
+    margin-bottom: 10%;
+  }
+  #info-section {
+    margin-left: 3%;
+  }
+  p.write {
+    width: 85%;
+    margin: 0 0 0 9%;
+    /* display: block;
+    float:left; */
+  }
+  p.peckertext {
+    width: 89%;
+  }
+  img.penis1 {
+    width: 80%;
+    height: 80%;
+    clear: both;
+    margin-bottom: 5%;
+    margin-left: -0.3%;
+    display: block;
+  }
+  img.penis2 {
+    width: 80%;
+    height: 80%;
+    clear: both;
+    margin-bottom: 5%;
+    margin-left: -0.3%;
+    display: block;
+  }
+  img.penis3 {
+    width: 80%;
+    height: 80%;
+    clear: both;
+    margin-bottom: 5%;
+    margin-left: -0.3%;
+    display: block;
+  }
+}
+
+/* ADMISSIONS */
+
+para#cling {
+  margin-bottom: 5%;
+  height: 100%;
+}
+
+img.across {
+  width: 100%;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+}
+
+#adwrapper {
+  width: 100%;
+  background-color: #fee496;
+  padding: 35px 0;
+  margin-top: -5px;
+}
+
+.aboutdivider {
+  width: 14%;
+  border-bottom: 2px solid #fec14a;
+  padding: 0 0 0 0;
+  margin: 10px 43% 15px 43%;
+}
+
+h1.head {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 36pt;
+  color: black;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#writeup {
+  clear: both;
+  padding: 5% 0 0% 12%;
+  margin-bottom: 7%;
+  display: block;
+}
+
+#threemm {
+  width: 140px;
+  border-bottom: 2px solid #fec14a;
+  padding: 1px 0 0 0;
+  margin: 0 0 8px 0;
+}
+
+h2.heading {
+  font-family: 'Lato', sans-serif;
+  font-size: 14pt;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 0 7px 0;
+  padding: 0;
+  display: block;
+  clear: left;
+}
+
+p.pa {
+  width: 65%;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 14pt;
+  color: black;
+  margin: 0 0 0 20%;
+  padding: 0;
+}
+
+.sasowrap {
+  width: 100%;
+  margin: 0;
+}
+
+p.sasotext {
+  font-family: 'Crimson Text', serif;
+  font-size: 14pt;
+  font-kerning: 1px;
+  color: black;
+  margin: 0 0 30px 0;
+  padding: 0;
+  width: 65%;
+  float: left;
+}
+
+p.sasotext b {
+  font-family: 'Crimson Text', serif;
+  text-decoration: underline;
+}
+
+input[type=checkbox] {
+  margin: 0 3% 0 0;
+}
+
+input[type=checkbox]:hover {
+  color: #ffffff;
+}
+
+input[type=checkbox]:checked+label {
+  color: #ccc;
+  font-style: italic;
+}
+
+input.documents {
+  margin-left: 10%;
+}
+
+@media only screen and (max-width:856px) {
+  #writeup {
+    padding-bottom: 5%;
+  }
+}
+
+@media only screen and (max-width:621px) {
+  #writeup {
+    padding-bottom: 14%;
+  }
+}
+
+@media only screen and (max-width:520px) {
+  #writeup {
+    padding-bottom: 21%;
+  }
+}
+
+@media only screen and (max-width:450px) {
+  #writeup {
+    padding-bottom: 25%;
+  }
+}
+
+@media only screen and (max-width:400px) {
+  #writeup {
+    padding-bottom: 30%;
+  }
+}
+
+@media only screen and (max-width:370px) {
+  #writeup {
+    padding-bottom: 36%;
+  }
+}
+
+/* GIVE */
+
+img.across {
+  width: 100%;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+}
+
+#pictureholder {
+  position: relative;
+}
+
+.quote {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+  font-style: italic;
+  position: absolute;
+  bottom: 7%;
+  right: 4%;
+  width: 40%;
+}
+
+img.across2 {
+  width: 100%;
+  height: 420px;
+  padding: 0;
+  margin-top: 5%
+}
+
+img.across1 {
+  width: 100%;
+  height: 420px;
+  padding: 0;
+}
+
+#deiwrap {
+  width: 100%;
+  background-color: #fee496;
+  padding: 35px 0;
+  margin-top: -5px;
+}
+
+.aboutdivider {
+  width: 14%;
+  border-bottom: 2px solid #fec14a;
+  padding: 0 0 0 0;
+  margin: 10px 43% 15px 43%;
+}
+
+h1.atama {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 36pt;
+  color: black;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.story {
+  padding: 5% 0 0 12%;
+}
+
+#threemm {
+  width: 150px;
+  border-bottom: 2px solid #fec14a;
+  padding: 1px 0 0 0;
+  margin: 0 0 8px 0;
+}
+
+h2.tongue {
+  font-family: 'Lato', sans-serif;
+  font-size: 14pt;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 0 7px 0;
+  padding: 0;
+  display: block;
+  clear: left;
+}
+
+p.write {
+  width: 60%;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 14pt;
+  color: black;
+  margin: 2% 0 3% 20%;
+  padding: 0;
+}
+
+.deiwrapper {
+  width: 100%;
+  margin: 0;
+}
+
+p.givetext {
+  font-family: 'Crimson Text', serif;
+  font-size: 14pt;
+  font-kerning: 1px;
+  color: black;
+  margin: 2% 0 20px 0;
+  padding: 0;
+  width: 70%;
+  text-align: justify;
+}
+
+p.givetext b {
+  font-family: 'Crimson Text', serif;
+  text-decoration: underline;
+}
+
+.facts5 {
+  margin: 0;
+  padding: 0;
+  width: 30%;
+  height: 12%;
+  border: 2px solid #fec14a;
+  transition: background ease 0.3s;
+  text-align: center;
+}
+
+.facts5:hover {
+  background-color: #fec14a;
+}
+
+.facts5:hover h2.sponsortext {
+  color: white;
+}
+
+.facts5 a {
+  text-decoration: none;
+}
+
+.facts5 h2 {
+  font-size: 10pt;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.facts7, .facts8, .facts9 {
+  margin-right: 10%;
+  padding: 0;
+  width: 15%;
+  height: 12%;
+  border: 2px solid #fec14a;
+  transition: background ease 0.3s;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+.facts7 h2, .facts8 h2, .facts9 h2 {
+  color: black;
+  font-size: 12pt;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.facts7:hover, .facts8:hover, .facts9:hover {
+  background-color: #fec14a;
+  color: white;
+}
+
+.facts7:hover>h2, .facts8:hover>h2, .facts9:hover>h2 {
+  color: white;
+}
+
+.indexwrapper6 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.indexwrapper6 a {
+  text-decoration: none;
+}
+
+#buttoncontainer {
+  display: block;
+  margin-left: 25%;
+}
+
+@media only screen and (max-width:905px) {
+  p.write {
+    width: 60%;
+  }
+
+  p.givetext {
+    width: 80%;
+  }
+
+  .indexwrapper6 {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+
+  .facts7, .facts8, .facts9 {
+    margin: 2% 30%;
+    padding: 0;
+    width: 40%;
+  }
+
+  #buttoncontainer {
+    margin: 0;
+  }
+
+}
+
+/*for tablet*/
+
+@media only screen and (max-width:700px) {
+
+  .facts7, .facts8, .facts9 {
+    margin: 5% 30%;
+    padding: 0;
+    width: 40%;
+  }
+
+  .facts5 {
+    width: 40%;
+  }
+
+  .story {
+    padding: 8% 0 0 12%;
+  }
+
+}
+  /*for mobile*/
+  @media only screen and (max-width:374px) {
+
+    p.write {
+      width: 85%;
+      margin: 0 0 0 9%;
+    }
+
+    p.givetext {
+      width: 85%;
+    }
+
+    .facts7, .facts8, .facts9 {
+      margin: 5% 30%;
+      padding: 0;
+      width: 40%;
+    }
+  }
+  </style>
+
+
+
 /* FOOTER */
 footer {
   background: #5c7944;
