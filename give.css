@@ -1,4 +1,4 @@
-#wrapped {
+#prata {
   margin-bottom: 10%;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 
-#wrapper2 {
+#deiwrap {
   width: 100%;
   background-color: #fee496;
   padding: 35px 0;
@@ -58,7 +58,7 @@ body {
 }
 
 
-h1.head {
+h1.atama {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 36pt;
@@ -68,8 +68,8 @@ h1.head {
   text-align: center;
 }
 
-#info-section {
-  padding: 5% 0 0 15%;
+#story {
+  padding: 5% 0 0 12%;
 }
 
 #threemm {
@@ -80,7 +80,7 @@ h1.head {
 }
 
 
-h2.oral {
+h2.tongue {
   font-family: 'Lato', sans-serif;
   font-size: 14pt;
   letter-spacing: 1px;
@@ -101,7 +101,7 @@ p.write {
   padding: 0;
 }
 
-.peckerwrapper {
+.deiwrapper {
   width: 100%;
   margin: 0;
 }
@@ -158,13 +158,6 @@ p.givetext b {
 
 @media only screen and (max-width:905px) {
 
-  body {
-    height:100%;
-  }
-
-  #wrapper2 {
-    width:100%;
-  }
 
 	p.write {
 		width:60%;
@@ -179,7 +172,7 @@ p.givetext b {
 /*for tablet*/
 @media only screen and (max-width:700px) {
 
-  #info-section {
+  #story {
     margin-left: -2%;
   }
 
@@ -194,7 +187,7 @@ p.givetext b {
 /*for mobile*/
 @media only screen and (max-width:374px) {
 
-  #info-section {
+  #story {
     margin-left: -1%;
   }
 	p.write {

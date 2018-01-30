@@ -487,6 +487,7 @@ footer {
   height: 360px;
   margin: 0;
   padding: 0;
+  clear: both;
 }
 
 #foot {
