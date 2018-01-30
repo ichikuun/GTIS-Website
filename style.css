@@ -1705,7 +1705,7 @@ p.ccontacts {
 }
 
 
-/* FAITH LIFE AND ABOUT US*/
+/* NIKKI FAITH LIFE AND ABOUT US*/
 
 #foil {
   margin-bottom: 15%;
@@ -1982,13 +1982,6 @@ img.penis3 {
 para#cling {
   margin-bottom: 5%;
   height: 100%;
-}
-
-img.across {
-  width: 100%;
-  height: 500px;
-  padding: 0;
-  margin: 0;
 }
 
 #adwrapper {
@@ -2380,6 +2373,101 @@ p.givetext b {
   </style>
 
 
+/* DANISHA EVENTS NEWS CALENDAR */
+
+.ewrapper {
+  background-color: white;
+  height: auto;
+  width: 100%;
+}
+
+h1.eventsheading {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 36pt;
+  color: black;
+  margin: 30px 0 5px 0;
+  padding: 0;
+  text-align: center;
+}
+
+#eventsdivider {
+  width: 14%;
+  border-bottom: #fec14a 2px solid;
+  padding: 0;
+  margin: 10px 43% 20px 43%;
+}
+
+.textbox {
+  width: 35vw;
+  height: 250px;
+  margin: 0 0 20px 15vw;
+  float: left;
+  background-color: #fee496;
+}
+
+.photobox {
+  float: left;
+}
+
+.imagebox {
+  width: 35vw;
+  height: 250px;
+  float: left;
+  margin: 0 0 20px 0;
+}
+
+.overtext {
+  font-family: 'Crimson Text';
+  font-size: 14px;
+  color: white;
+  padding: 42px 34px 55px 30px;
+  display: none;
+  position: absolute;
+  width: 100vw;
+  z-index: 999;
+  font-weight: 200;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.photobox img {
+  max-height: auto;
+  max-width: 100%;
+}
+
+.big:hover: photobox {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.big:hover .overtext {
+  display: block;
+  width: 30vw;
+}
+
+h2.infoheader {
+  font-family: 'Lato', sans-serif;
+  font-size: 28px black;
+  text-transform: uppercase;
+  margin: 80px 20px 0px 20px;
+  align: center;
+  text-align: center;
+}
+
+h3.info {
+  font-family: 'Crimson Text';
+  font-size: 14px black;
+  margin: 5px 40px 80px 40px;
+  align: center;
+  text-align: center;
+}
+
+/*#photobox:hover{
+  display:block;
+  opacity: 1;
+  background-color: white;
+  width: 30vw;
+}*/
+
 
 /* FOOTER */
 footer {
@@ -2388,6 +2476,7 @@ footer {
   height: 360px;
   margin: 0;
   padding: 0;
+  overflow: hidden;
   transition: all ease 0.3s;
 }
 
