@@ -199,9 +199,10 @@ li#student:hover > #sdropdown {
 
 /* NAVIGATION */
 
-.wrapper{
-	width:100%;
-	height:auto;
+.ewrapper {
+  background-color: white;
+  height:auto;
+  width: 100%;
 }
 
 h1.paraheading{
@@ -209,48 +210,92 @@ font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 36pt;
   color: black;
-  margin: 0 0 5px 0;
+  margin: 30px 0 5px 0;
   padding: 0;
   text-align:center;
 }
 
 #eventsdivider{
-width: 14%;
-  border-bottom: #fec14a 2px solid;
-  padding: 0 0 0 0;
-  margin: 10px 43% 15px 43%;
+	width:14%;
+	border-bottom: #fec14a 2px solid;
+	padding: 0;
+	margin: 10px 43% 20px 43%;
 }
 
 .textbox{
-	width:30vw;
+	width:35vw;
 	height:250px;
-	margin-left:20vw;
+	margin:0 0 20px 15vw;
 	float:left;
 	background-color:#fee496;
+	
 }
 
 .photobox{
-	width:30vw;
-	height:250px;
-	background-color:blue;
 	float:left;
 }
 
-h2.infoheader{
-	font-family: 'Lato' sans serif;
+.imagebox {
+	width:35vw;
+	height:250px;
+	float:left;
+	margin:0 0 20px 0;
+}
+
+
+.overtext{
+	font-family: 'Crimson Text';
 	font-size:14px;
+	color:white;
+	padding: 42px 34px 55px 30px;
+	display: none;
+	position:absolute;
+	width: 100vw;
+	z-index: 999;
+	font-weight:200;
+	background-color:rgba(0,0,0,0.3);
+}
+
+
+.photobox img{
+	max-height:auto;
+	max-width:100%;
+	
+}
+
+.big:hover: photobox{
+	background-color:rgba(0,0,0,0.9);
+}
+
+.big:hover .overtext {
+  	display: block;
+ 	width: 30vw;
+}
+
+h2.infoheader{
+	font-family: 'Lato', sans-serif;
+	font-size:28px black;
 	text-transform:uppercase;
-	margin: 10px;
+	margin:80px 20px 0px 20px;
+	align:center;
+	text-align:center;
+	
 }
 
 h3.info{
-	font-family: Crimson Text;
-	font-size:14px;
+	font-family: 'Crimson Text';
+	font-size:14px black;
+	margin:5px 40px 80px 40px;
+	align:center;
+	text-align:center;
 }
 
-
-
-
+/*#photobox:hover{
+  display:block;
+  opacity: 1;
+  background-color: white;
+  width: 30vw;
+}*/
 
 
 /* FOOTER */
@@ -260,11 +305,13 @@ footer {
   height: 360px;
   margin: 0;
   padding: 0;
+  overflow:hidden;
 }
+
 
 #foot {
   width: 30%;
-  position: absolute;
+  position:absolute;
   left: 80px;
   padding-top: 20px;
 }
@@ -332,3 +379,21 @@ img.soc {
 
 /* FOOTER */
 
+@media only screen and (max-width:870px) {
+ header navi{
+	 width:70%;
+	 background:#FBAA44;
+	 }
+}
+
+@media screen and (max-width:600px) {
+ .overtext {
+  	display: block;
+	visibility:hidden;
+}
+
+.big:hover .overtext {
+  	display:none;
+	visibility:hidden;
+}
+}
