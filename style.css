@@ -1222,18 +1222,31 @@ h2.donatetext {
 }
 
 @media only screen and (max-width:861px) {
+  .htext {
+    width: 200%;
+    margin-left: -70px;
+  }
+
   .htext2 {
     margin-top: -30vh;
   }
-
-  .htext4 {
-		width: 300%;
-}
 
   .sensor:nth-of-type(10):hover .htext4 {
     transform: translateX(-60vw);
   }
 }
+
+@media only screen and (max-width:645px) {
+  .wrapperh {
+    display: none;
+  }
+
+  .mobilearn {
+    display: block;
+  }
+}
+
+
 /* LEARNING */
 
 body#history div {
@@ -1426,7 +1439,7 @@ body#history div {
 }
 
 .sensorl:nth-of-type(1):hover .ltext2 {
-  transform: translateX(30vw);
+  transform: translateX(20vw);
   opacity: 1;
 }
 
@@ -1573,8 +1586,12 @@ h2.lheading {
   padding: 0;
 }
 
+.ltext2 table {
+  margin-top: 10px;
+}
+
 .ltext2 th, .ltext2 td {
-  padding: 2% 2%;
+  padding: 2%;
   text-align: left;
 }
 
@@ -1583,41 +1600,140 @@ h2.lheading {
 }
 
 .ltext2 th:nth-of-type(1) {
-  width: 40%;
+  width: 45%;
 }
 
 .ltext2 th:nth-of-type(2) {
-  width: 60%;
+  width: 65%;
 }
 
 .ltext2 tr:nth-of-type(3), .ltext2 tr:nth-of-type(5), .ltext2 tr:nth-of-type(7) {
   background-color: hsla(39.7, 98.9%, 64.3%, .2);
 }
 
+#lmove1 {
+  margin-top: -60vh;
+}
+
+#lmove2 {
+}
+
+#lmove3 {
+  margin-top: -57vh;
+}
+
+#lmove4 {
+  margin-top: -75vh;
+}
+
+
+/* MOBILE LEARNING */
+
 .mltext {
-  width: 150%;
+  width: 80vw;
   background: #fee496;
-  opacity: 0;
   font-family: 'Lato', sans-serif;
   color: black;
   font-size: 10pt;
   letter-spacing: 1px;
   text-transform: none;
   text-align: center;
-	transform: translateX(-30vw);
-	transition: 1s cubic-bezier(0.5, 0, 0.5, 1), opacity ease 1s;
-  padding: 50px;
-  margin-top: -86vh;
+	transition: opacity ease 1s;
+  padding: 5vh 10vw;
   text-align: center;
 }
 
+.mltext table {
+  margin: 10px 0 0 0;
+}
 
+.mltext th, .mltext td {
+  padding: 2% 2%;
+  text-align: left;
+}
 
-@media only screen and (max-width:861px) {
-  .ltext2 {
-    margin-top: -30vh;
+.mltext th {
+  background-color: hsla(39.7, 98.9%, 64.3%, .5);
+}
+
+.mltext th:nth-of-type(1) {
+  width: 30vw;
+}
+
+.mltext th:nth-of-type(2) {
+  width: 50vw;
+}
+
+.mltext tr:nth-of-type(3), .mltext tr:nth-of-type(5), .mltext tr:nth-of-type(7) {
+  background-color: hsla(39.7, 98.9%, 64.3%, .2);
+}
+
+.mldivider {
+  width: 14%;
+  border-bottom: 2px solid #fec14a;
+  padding: 0 0 0 0;
+  margin: 10px 43% 15px 43%;
+}
+
+h2.mlheading {
+  font-family: 'Lato', sans-serif;
+  font-size: 14pt;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.mlpic {
+  width: 100vw;
+  margin-bottom: -5px;
+}
+
+.mobilearn {
+  display: none;
+}
+
+/* LEARNING MEDIA QUERY */
+
+@media only screen and (max-width:1100px) {
+  .sensorl {
+    margin-top: 40px;
   }
 }
+
+@media only screen and (max-width:905px) {
+  #lmove1 {
+    margin-top: -45vh;
+  }
+
+  #lmove2 {
+    margin-top: -42vh;
+  }
+
+  #lmove3 {
+    margin-top: -43vh;
+  }
+
+  #lmove4 {
+    margin-top: -40vh;
+  }
+
+  #lintro {
+    width: 30vw;
+  }
+}
+
+@media only screen and (max-width:645px) {
+  .wrapperl {
+    display: none;
+  }
+
+  .mobilearn {
+    display: block;
+  }
+}
+
 
 /* CONTACT */
 /* My G Maps API: AIzaSyAA3isKoussR5y7R6YNt2xjp_JdnJHYnx4 */
