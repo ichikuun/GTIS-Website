@@ -411,8 +411,8 @@ h2.indexheading {
 }
 
 .indexwrapper2 {
-  width: 60%;
-  margin: 0 20% 50px 20%;
+  width: 70%;
+  margin: 40px 15% 50px 15%;
 }
 
 .factsdivider {
@@ -2472,6 +2472,34 @@ p.givetext b {
 
 /* DANISHA EVENTS NEWS CALENDAR */
 
+h2.ntitle {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 24pt;
+  color: black;
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+
+.ndivider {
+  width: 14%;
+  border-bottom: 2px solid #fec14a;
+  padding: 0;
+  margin: 10px 0 15px 0;
+  transition: border ease 0.5s;
+}
+
+h2.nheading {
+  font-family: 'Lato', sans-serif;
+  font-size: 10pt;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  color: rgb(100,100,100)
+}
+
 .ewrapper {
   background-color: white;
   height: auto;
@@ -2483,7 +2511,7 @@ h1.eventsheading {
   font-weight: 700;
   font-size: 36pt;
   color: black;
-  margin: 30px 0 5px 0;
+  margin: 5% 0 2px 0;
   padding: 0;
   text-align: center;
 }
@@ -2496,35 +2524,57 @@ h1.eventsheading {
 }
 
 .textbox {
-  width: 35vw;
+  width: 30vw;
   height: 250px;
-  margin: 0 0 20px 15vw;
+  margin: 10px 0;
   float: left;
   background-color: #fee496;
+  transition: background ease 0.5s;
+}
+
+.big {
+  margin: 0 0 0 10vw;
 }
 
 .photobox {
+  width: 50vw;
+  margin: 10px 0;
   float: left;
 }
 
 .imagebox {
-  width: 35vw;
+  width: 50vw;
   height: 250px;
   float: left;
-  margin: 0 0 20px 0;
+  margin: 0;
 }
 
 .overtext {
   font-family: 'Crimson Text';
-  font-size: 14px;
-  color: white;
-  padding: 42px 34px 55px 30px;
-  display: none;
+  font-size: 16px;
+  color: black;
+  height: 190px;
+  padding: 40px 5vw 20px 5vw;
+  opacity: 0;
+  width: 40vw;
   position: absolute;
-  width: 100vw;
   z-index: 999;
-  font-weight: 200;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #fee496;
+  transition: opacity ease 0.5s, left ease 0.5s;
+  left: 0vw;
+}
+
+.big:hover .overtext {
+  opacity: 1;
+  left: 40vw;
+}
+
+.big:hover .textbox {
+  background: #fec14a;
+}
+
+.big:hover .ndivider {
+  border-color: #f35001;
 }
 
 .photobox img {
@@ -2532,22 +2582,14 @@ h1.eventsheading {
   max-width: 100%;
 }
 
-.big:hover: photobox {
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
-.big:hover .overtext {
-  display: block;
-  width: 30vw;
-}
-
 h2.infoheader {
   font-family: 'Lato', sans-serif;
-  font-size: 28px black;
+  font-weight: 700;
+  font-size: 18pt;
   text-transform: uppercase;
-  margin: 80px 20px 0px 20px;
-  align: center;
-  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 0;
 }
 
 h3.info {
@@ -2558,12 +2600,61 @@ h3.info {
   text-align: center;
 }
 
-/*#photobox:hover{
-  display:block;
-  opacity: 1;
-  background-color: white;
-  width: 30vw;
-}*/
+@media only screen and (max-width:960px) {
+
+  .overtext {
+    font-family: 'Crimson Text';
+    font-size: 16px;
+    color: black;
+    height: 230px;
+    padding: 40px 5vw 20px 5vw;
+  }
+
+  .imagebox {
+    height: 290px;
+  }
+
+  .textbox {
+    height: 290px;
+  }
+}
+
+@media only screen and (max-width:750px) {
+  .overtext {
+    font-family: 'Crimson Text';
+    font-size: 16px;
+    color: black;
+    height: 300px;
+    padding: 30px 5vw 20px 5vw;
+  }
+
+  .imagebox {
+    height: 350px;
+  }
+
+  .textbox {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .overtext {
+    font-family: 'Crimson Text';
+    font-size: 16px;
+    color: black;
+    height: 300px;
+    padding: 30px 5vw 20px 5vw;
+  }
+
+  .imagebox {
+    height: 350px;
+  }
+
+  .textbox {
+    height: 350px;
+  }
+}
+
 
 
 /* FOOTER */
