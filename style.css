@@ -2564,17 +2564,15 @@ h1.eventsheading {
   left: 0vw;
 }
 
-<<<<<<< HEAD
-
 
 .photobox img {
   max-height: auto;
   max-width: 100%;
-=======
+}
+
 .big:hover .overtext {
   opacity: 1;
   left: 40vw;
->>>>>>> f85142d582e96798e9e2c9209d3184cdc0faa765
 }
 
 .big:hover .textbox {
