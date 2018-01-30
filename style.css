@@ -2638,23 +2638,57 @@ h3.info {
 }
 
 @media only screen and (max-width:600px) {
+
+  .textbox {
+    width: 80vw;
+    height: auto;
+    margin: 10px 0 4px 0;
+    padding: 10px 0;
+    float: none;
+    background-color: #fec14a;
+    transition: background ease 0.5s;
+  }
+
+  .big:hover .overtext {
+    opacity: 1;
+    left: 0vw;
+  }
+
   .overtext {
-    font-family: 'Crimson Text';
-    font-size: 16px;
-    color: black;
-    height: 300px;
-    padding: 30px 5vw 20px 5vw;
+    opacity: 1;
+    position: static;
+    width: 70vw;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .ndivider {
+    border-color: #f35001;
+  }
+
+  .big {
+    margin: 0 0 0 10vw;
+  }
+
+  .photobox {
+    width: 80vw;
+    margin: 0;
+    float: none;
   }
 
   .imagebox {
-    height: 350px;
+    width: 80vw;
+    height: 250px;
+    float: none;
+    margin: 0;
   }
 
-  .textbox {
-    height: 350px;
+  #aesthethicc {
+    margin-bottom: 10px;
   }
+
+
 }
-
 
 
 /* FOOTER */
@@ -2784,7 +2818,7 @@ img.soc {
   }
 
   #fotter {
-    margin-top: 430px;
+    margin-top: 30px;
   }
 }
 
