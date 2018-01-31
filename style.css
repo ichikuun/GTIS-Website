@@ -3109,24 +3109,7 @@ h3.info {
   text-align: center;
 }
 
-@media only screen and (max-width:960px) {
-
-  .overtext {
-    font-family: 'Crimson Text';
-    font-size: 16px;
-    color: black;
-    height: 230px;
-    padding: 40px 5vw 20px 5vw;
-  }
-
-  .imagebox {
-    height: 290px;
-  }
-
-  .textbox {
-    height: 290px;
-  }
-}
+/* NEWS CALENDAR MEDIA QUERY */
 
 @media only screen and (max-width:960px) {
   .overtext {
@@ -3134,10 +3117,11 @@ h3.info {
     font-size: 16px;
     color: black;
     height: 300px;
-    padding: 30px 5vw 20px 5vw;
+    margin-top: 254px;
+    padding: 20px 5vw 20px 5vw;
   }
 
-  .imagebox1,.imagebox2,.imagebox3,.imagebox4,.imagebox5,.imagebox6,.imagebox7,.imagebox8 {
+  .imagebox1, .imagebox2, .imagebox3, .imagebox4, .imagebox5, .imagebox6, .imagebox7, .imagebox8 {
     height: 350px;
   }
 
@@ -3154,7 +3138,7 @@ h3.info {
     height: auto;
     margin: 10px 0 4px 0;
     padding: 10px 0;
-    clear: both;
+    opacity: 1;
     background-color: #fec14a;
     transition: background ease 0.5s;
   }
@@ -3162,16 +3146,14 @@ h3.info {
   .big:hover .overtext {
     opacity: 1;
     left: 0vw;
-    transition-timing-function: ease-in-out;
-    transition: 1s;
+    transition: all ease 1s;
   }
 
   .overtext {
-    opacity: 0;
+    opacity: 1;
     position: static;
     width: 70vw;
     height: auto;
-    padding-bottom: 30px;
     display: block;
   }
 
