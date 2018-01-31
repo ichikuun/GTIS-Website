@@ -2154,7 +2154,7 @@ img.across {
   height: 500px;
   padding: 0;
   margin: 0;
-  display: none;
+  /* display: none; */
 }
 
 .image1 {
@@ -3203,6 +3203,21 @@ h3.info {
   }
 }
 
+/* SITEMAP */
+#otawrap {
+    margin: 3% 0 5% 5%;
+    height: 100%;
+    clear: both;
+}
+
+
+ul.li {
+  margin-left: 5%;
+}
+
+ul.li.li {
+  margin-left: 5%;
+}
 
 /* FOOTER */
 footer {
