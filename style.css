@@ -2949,6 +2949,87 @@ h1.eventsheading {
   margin: 0;
 }
 
+.imagebox1 {
+  width: 50vw;
+  height: 250px;
+  float: left;
+  margin: 0;
+  background: url(images/calenfam.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagebox2 {
+  width: 50vw;
+  height: 250px;
+  float: left;
+  margin: 0;
+  background: url(images/calencam.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagebox3 {
+  width: 50vw;
+  height: 250px;
+  float: left;
+  margin: 0;
+  background: url(images/calenspo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagebox4 {
+  width: 50vw;
+  height: 250px;
+  float: left;
+  margin: 0;
+  background: url(images/calenmid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagebox5 {
+  width: 50vw;
+  height: 250px;
+  float: left;
+  margin: 0;
+  background: url(images/newsdent.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagebox6 {
+  width: 50vw;
+  height: 250px;
+  float: left;
+  margin: 0;
+  background: url(images/newschoi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagebox7 {
+  width: 50vw;
+  height: 250px;
+  float: left;
+  margin: 0;
+  background: url(images/newscoun.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagebox8 {
+  width: 50vw;
+  height: 250px;
+  float: left;
+  margin: 0;
+  background: url(images/newsretr.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
 .overtext {
   font-family: 'Crimson Text';
   font-size: 16px;
@@ -2965,7 +3046,7 @@ h1.eventsheading {
 }
 
 
-.photobox img {
+.imagebox1,.imagebox2,.imagebox3,.imagebox4, {
   max-height: auto;
   max-width: 100%;
 }
@@ -2983,7 +3064,7 @@ h1.eventsheading {
   border-color: #f35001;
 }
 
-.photobox img {
+.imagebox1,.imagebox2,.imagebox3,.imagebox4,.imagebox5,.imagebox6,.imagebox7,.imagebox8 {
   max-height: auto;
   max-width: 100%;
 }
@@ -3025,7 +3106,7 @@ h3.info {
   }
 }
 
-@media only screen and (max-width:750px) {
+@media only screen and (max-width:960px) {
   .overtext {
     font-family: 'Crimson Text';
     font-size: 16px;
@@ -3034,7 +3115,7 @@ h3.info {
     padding: 30px 5vw 20px 5vw;
   }
 
-  .imagebox {
+  .imagebox1,.imagebox2,.imagebox3,.imagebox4,.imagebox5,.imagebox6,.imagebox7,.imagebox8 {
     height: 350px;
   }
 
@@ -3043,6 +3124,7 @@ h3.info {
   }
 }
 
+
 @media only screen and (max-width:600px) {
 
   .textbox {
@@ -3050,7 +3132,7 @@ h3.info {
     height: auto;
     margin: 10px 0 4px 0;
     padding: 10px 0;
-    float: none;
+    clear: both;
     background-color: #fec14a;
     transition: background ease 0.5s;
   }
@@ -3058,14 +3140,17 @@ h3.info {
   .big:hover .overtext {
     opacity: 1;
     left: 0vw;
+    transition-timing-function: ease-in-out;
+    transition: 1s;
   }
 
   .overtext {
-    opacity: 1;
+    opacity: 0;
     position: static;
     width: 70vw;
     height: auto;
     padding-bottom: 30px;
+    display: block;
   }
 
   .ndivider {
@@ -3079,18 +3164,20 @@ h3.info {
   .photobox {
     width: 80vw;
     margin: 0;
-    float: none;
+    clear:both;
   }
 
-  .imagebox {
+    .imagebox1,.imagebox2,.imagebox3,.imagebox4,.imagebox5,.imagebox6,.imagebox7,.imagebox8{
     width: 80vw;
     height: 250px;
-    float: none;
+    clear:both:
     margin: 0;
+    display: block;
   }
 
   #aesthethicc {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    clear: both;
   }
 }
 
