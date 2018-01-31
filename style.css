@@ -2154,7 +2154,7 @@ img.across {
   height: 500px;
   padding: 0;
   margin: 0;
-  display: none;
+  /* display: none; */
 }
 
 .image1 {
@@ -3185,6 +3185,7 @@ h3.info {
   }
 }
 
+<<<<<<< HEAD
 h1.eventsheading1 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -3218,6 +3219,23 @@ h1.eventsheading1 {
 
 }
 
+=======
+/* SITEMAP */
+#otawrap {
+    margin: 3% 0 5% 5%;
+    height: 100%;
+    clear: both;
+}
+
+
+ul.li {
+  margin-left: 5%;
+}
+
+ul.li.li {
+  margin-left: 5%;
+}
+>>>>>>> ad99a05ec435888726dad8ba6511468c867b8cb2
 
 /* FOOTER */
 footer {
