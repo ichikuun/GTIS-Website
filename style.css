@@ -561,6 +561,11 @@ h2.empowertext {
   }
 
 .carousel-caption {
+  margin: 40px;
+}
+
+.itext:hover {
+  opacity: 0.5;
 }
 
 .carousel-caption1 {
@@ -627,6 +632,23 @@ h2.empowertext {
   height: 530px;
   background: cover;
 }
+
+.itext {
+  width: 30vw;
+  background: hsla(45, 98.1%, 79.2%, 0.9);
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 10pt;
+  letter-spacing: 1px;
+  text-transform: none;
+  text-align: center;
+  padding: 40px;
+  margin: 200px 0 0 400px;
+  opacity: 1;
+  transition: all ease 0.3s;
+
+}
+
 
 
 /* INDEX MEDIA QUERY */
