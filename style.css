@@ -1976,30 +1976,9 @@ p.ccontacts {
 
 /* STAFF */
 
-
 #itawrap {
   margin: 3% 0 15% 0;
   height: 100%;
-  clear: both;
-}
-
-#fourmm {
-  width: 7%;
-  border-bottom: 2px solid #fec14a;
-  padding: 1px 0 0 0;
-  margin: 0 5% 8px 12%;
-  clear: both;
-}
-
-
-h2.mouth {
-  font-family: 'Lato', sans-serif;
-  font-size: 14pt;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin: 0 5% 7px 12%;
-  padding: 0;
-  display:block;
   clear: both;
 }
 
@@ -2017,8 +1996,8 @@ h2.mouth {
 
 .ptext {
   display: block;
-  width: 50%;
-  margin: -19% 12% 0 0;
+  width: 50vw;
+  margin: 3vh 15vw 0 0;
   float: right;
 }
 
@@ -2026,8 +2005,13 @@ p.pmessage {
   font-family: 'Crimson Text', serif;
   font-size: 14pt;
   color: black;
-  margin: 0 0 0 0;
+  margin: 0;
   padding: 0;
+}
+
+#mrssng {
+  margin: 3.5vh 0 0 15vw;
+  width: 18vw;
 }
 
 
@@ -2097,13 +2081,43 @@ p.pmessage {
 p.names {
   clear: both;
   font-family: 'Crimson Text', serif;
-  font-size: 14pt;
+  font-size: 1.1em;
   color: black;
   margin: 0;
   padding: 0 0 20px 0;
   line-height: 16pt;
+  max-height: 35px;
 }
 
+@media only screen and (max-width:570px) {
+  p.names {
+    font-size: 0.8em;
+    line-height: 11pt;
+    max-height: 30px;
+  }
+
+  #mrssng {
+    width: 30vw;
+    height: auto;
+    margin: 5vw 15vw;
+  }
+
+  .ptext {
+    display: block;
+    width: 70%;
+    margin: 0 15% 0 0;
+    float: right;
+  }
+
+  h2.cheading1 {
+    font-size: 14pt;
+  }
+
+  p.pmessage {
+    font-size: 12pt;
+  }
+
+}
 
 
 /* FAITH LIFE AND ABOUT US*/
