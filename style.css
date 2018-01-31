@@ -19,6 +19,16 @@ rgb(230,230,230)
   margin: 0;
 }
 
+a {
+  color: #f35001;
+  text-decoration-color: #f35001;
+  font-style: italic;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -41,6 +51,10 @@ html {
   margin: 0;
   padding: 0;
   z-index: 10;
+}
+
+#bar a {
+  font-style: normal;
 }
 
 #logo {
@@ -121,6 +135,10 @@ ul.navi {
   text-transform: uppercase;
   text-align: center;
   display: block;
+}
+
+ul.navi a {
+  font-style: normal;
 }
 
 ul.navi li {
@@ -1197,16 +1215,17 @@ p.bodytext {
   color: black;
 }
 
+.facts4 a {
+  text-decoration: none;
+  font-style: normal;
+}
+
 .facts4:hover {
   background-color: #fec14a;
 }
 
 .facts4:hover h2.donatetext {
   color: white;
-}
-
-.facts4 a {
-  text-decoration: none;
 }
 
 h2.donatetext {
@@ -2077,12 +2096,39 @@ p.names {
   height: 100%;
 }
 
-
 img.across {
   width: 100%;
   height: 500px;
   padding: 0;
   margin: 0;
+  display: none;
+}
+
+.image1 {
+  width: 100vw;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+  background: url(images/admintop.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.image2 {
+  width: 100vw;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+  background: url(images/faithtop.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.image3 {
+  width: 100vw;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+  background: url(images/abouttop.jpg) no-repeat center fixed;
+  background-size: cover;
 }
 
 #wrapper2 {
@@ -2682,6 +2728,10 @@ p.givetext b {
   letter-spacing: 1px;
 }
 
+.facts4 a, .facts5 a, .facts7 a, .facts8 a, .facts9 a {
+  font-style: normal;
+}
+
 .facts7:hover, .facts8:hover, .facts9:hover {
   background-color: #fec14a;
   color: white;
@@ -2997,8 +3047,6 @@ h3.info {
   #aesthethicc {
     margin-bottom: 10px;
   }
-
-
 }
 
 
@@ -3010,8 +3058,6 @@ footer {
   margin: 0;
   padding: 0;
   overflow: hidden;
-=======
->>>>>>> 5a54f8b5aeb6a7f57d9f58082a4c9ff33fc58805
   transition: all ease 0.3s;
 }
 
@@ -3052,6 +3098,10 @@ ul.footnav {
   padding: 60px 0 0 0;
   position: absolute;
   left: 50%;
+}
+
+ul.footnav a {
+  font-style: normal;
 }
 
 ul.footnav li {
