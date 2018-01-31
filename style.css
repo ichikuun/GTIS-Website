@@ -3185,6 +3185,41 @@ h3.info {
   }
 }
 
+<<<<<<< HEAD
+h1.eventsheading1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 36pt;
+  color: black;
+  margin: 5% 0 2px 0;
+  padding: 0;
+  text-align: center;
+}
+
+#eventsdivider1 {
+  width: 10%;
+  border-bottom: #fec14a 2px solid;
+  padding: 0;
+  margin: 10px 45% 20px 45%;
+}
+
+#sitemap {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 18pt;
+  list-style: none;
+  line-height: 28pt;
+  text-align: center;
+  padding: 0 0 50px 0;
+  margin: 0;
+}
+
+#sitemap a {
+  font-style: normal;
+
+}
+
+=======
 /* SITEMAP */
 #otawrap {
     margin: 3% 0 5% 5%;
@@ -3200,6 +3235,7 @@ ul.li {
 ul.li.li {
   margin-left: 5%;
 }
+>>>>>>> ad99a05ec435888726dad8ba6511468c867b8cb2
 
 /* FOOTER */
 footer {
