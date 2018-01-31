@@ -545,6 +545,7 @@ h2.empowertext {
   margin: 5% 0;
   padding: 0;
   color: white;
+  font-style: none;
 }
 
 /* SLIDER */
@@ -1797,19 +1798,36 @@ h2.mlheading {
 }
 
 .cdivider {
-  width: 14%;
+  width: 14vw;
   border-bottom: 2px solid #fec14a;
   padding: 0 0 0 0;
   margin: 10px 43% 15px 0;
 }
 
-h2.cheading {
+.sdivider {
+  width: 5vw;
+  border-bottom: 2px solid #fec14a;
+  padding: 0;
+  margin: 10px 43% 15px 14vw;
+}
+
+h2.cheading1 {
   font-family: 'Lato', sans-serif;
-  font-size: 12pt;
+  font-size: 16pt;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin: 0;
+  padding: 0;
+}
+
+h2.cheading {
+  font-family: 'Lato', sans-serif;
+  font-size: 16pt;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 0 0 14vw;
   padding: 0;
 }
 
@@ -1959,28 +1977,8 @@ p.ccontacts {
 /* STAFF */
 
 #itawrap {
-  margin-bottom: 15%;
+  margin: 3% 0 15% 0;
   height: 100%;
-  clear: both;
-}
-
-#fourmm {
-  width: 7%;
-  border-bottom: 2px solid #fec14a;
-  padding: 1px 0 0 0;
-  margin: 0 5% 8px 12%;
-  clear: both;
-}
-
-
-h2.mouth {
-  font-family: 'Lato', sans-serif;
-  font-size: 14pt;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin: 0 5% 7px 12%;
-  padding: 0;
-  display:block;
   clear: both;
 }
 
@@ -1992,14 +1990,14 @@ h2.mouth {
 
 .pimage {
   display: block;
-  width:30%;
+  width: 30%;
   float: left;
 }
 
 .ptext {
   display: block;
-  width:50%;
-  margin: -20% 8% 0 0;
+  width: 50vw;
+  margin: 3vh 15vw 0 0;
   float: right;
 }
 
@@ -2007,14 +2005,19 @@ p.pmessage {
   font-family: 'Crimson Text', serif;
   font-size: 14pt;
   color: black;
-  margin: 0 0 0 0;
+  margin: 0;
   padding: 0;
+}
+
+#mrssng {
+  margin: 3.5vh 0 0 15vw;
+  width: 18vw;
 }
 
 
 .threeboxdiv {
-  width: 80%;
-  padding: 3% 10% 0 10%;
+  width: 80vw;
+  padding: 3vh 10vw 0 10vw;
   margin: 0;
   clear: both;
 }
@@ -2039,7 +2042,6 @@ p.pmessage {
   padding: 0;
   width: 30%;
   height: 12%;
-  /* border: 2px solid #fec14a; */
 }
 
 .box1 img, .box2 img, .box3 img {
@@ -2054,7 +2056,6 @@ p.pmessage {
   padding: 0;
   width: 23.5%;
   height: 12%;
-  /* border: 2px solid #fec14a; */
 }
 
 .box5 img, .box6 img {
@@ -2069,7 +2070,6 @@ p.pmessage {
   padding: 0;
   width: 23.5%;
   height: 12%;
-  /* border: 2px solid #fec14a; */
 }
 
 .box7 img {
@@ -2081,12 +2081,43 @@ p.pmessage {
 p.names {
   clear: both;
   font-family: 'Crimson Text', serif;
-  font-size: 14pt;
+  font-size: 1.1em;
   color: black;
   margin: 0;
   padding: 0 0 20px 0;
+  line-height: 16pt;
+  max-height: 35px;
 }
 
+@media only screen and (max-width:570px) {
+  p.names {
+    font-size: 0.8em;
+    line-height: 11pt;
+    max-height: 30px;
+  }
+
+  #mrssng {
+    width: 30vw;
+    height: auto;
+    margin: 5vw 15vw;
+  }
+
+  .ptext {
+    display: block;
+    width: 70%;
+    margin: 0 15% 0 0;
+    float: right;
+  }
+
+  h2.cheading1 {
+    font-size: 14pt;
+  }
+
+  p.pmessage {
+    font-size: 12pt;
+  }
+
+}
 
 
 /* FAITH LIFE AND ABOUT US*/
@@ -2205,9 +2236,23 @@ p.peckertext {
   float: left;
 }
 
-p.peckertext b {
+p.hymn {
   font-family: 'Crimson Text', serif;
-  text-decoration:underline;
+  font-size: 14pt;
+  font-kerning: 1px;
+  color: black;
+  margin: 0 0 5% 0;
+  padding: 0;
+  width: 50%;
+  float: left;
+}
+
+p.bibleq {
+  color: #f35001;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16pt;
+  margin-right: 60px;
 }
 
 img.penis1 {
@@ -2728,7 +2773,7 @@ p.givetext b {
   letter-spacing: 1px;
 }
 
-.facts4 a, .facts5 a, .facts7 a, .facts8 a, .facts9 a {
+.facts1 a, .facts2 a, .facts3 a, .facts4 a, .facts5 a, .facts7 a, .facts8 a, .facts9 a {
   font-style: normal;
 }
 
