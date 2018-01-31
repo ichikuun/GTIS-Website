@@ -868,7 +868,7 @@ p.bodytext {
 .pano {
 	width: 281vw;
 	height: 100vh;
-	background-image: url(images/2013.jpg);
+	background-image: url(images/histback.jpg);
 	background-size: cover;
 	background-position: center;
 	transform: translateX(0vw);
@@ -1337,7 +1337,7 @@ body#history div {
 .panol {
 	width: 281vw;
 	height: 100vh;
-	background-image: url(images/panorama.jpg);
+	background-image: url(images/learnpan.jpg);
 	background-size: cover;
 	background-position: center;
 	transform: translateX(0vw);
